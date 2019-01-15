@@ -1,49 +1,58 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.title {
+    display: inline-block;
+    width: 10vw;
+    height: 5vh;
+    font-family: sans-serif;
+    border: solid #9DB5B2 2px;
+    padding: 0vh 1vw 1vh 1vw;
+    border-radius: 10px 10px;
+    margin: 1vh 44.5vw 0.5vh 44.5vw;
+    background: #878E99;
+    color: #7F6A93;
+    font-size: calc(0.65vw + 0.65vh + 0.1vmin);
+    overflow: hidden;
+   }
+  
+  .img {
+    background: url("https://lparchive.org/Xenogears-(by-The-Dark-Id)/Update%2001/46-prologue60.jpg");
+    background-size: 30vw 40vh;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 100px 100px;
+    padding: 0vh 0vw 0vh 0vw;
+    margin: 2vh 35vw 2vh 35vw;
+    border: solid #9DB5B2 2px;
+    background-repeat: no-repeat;
+  }
+  
+  .body {
+    display: inline-block;
+    width: 30vw;
+    height: 20vh;
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 3vh 35.5vw 3vh 35.5vw;
+    border: solid #9DB5B2 2px;
+    background: #A2C5AC;
+    color: #7F6A93;
+    border-radius: 20px 20px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    font-size: calc(0.55vw + 0.55vh + 0.4vmin);
+  }
+  
+  .bio {
+    background: url(https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=920&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr{
+    background-color: #dddddd;
+  }
+ 
