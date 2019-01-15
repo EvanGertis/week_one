@@ -47,12 +47,17 @@
 }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #A2C5AC;
     text-align: left;
     padding: 8px;
+    
   }
   
   tr{
     background-color: #dddddd;
+  }
+  
+  table {
+    color: inherit;
   }
  
