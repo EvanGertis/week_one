@@ -1,15 +1,18 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .title {
   display: inline-block;
   width: 10vw;
   height: 5vh;
-  font-family: sans-serif;
   border: solid #9DB5B2 2px;
   padding: 0vh 1vw 1vh 1vw;
   border-radius: 10px 10px;
   margin: 1vh 44.5vw 0.5vh 44.5vw;
   background: #878E99;
   color: #7F6A93;
-  font-size: calc(0.65vw + 0.65vh + 0.1vmin);
+  font-size: calc(0.65vw + 0.45vh + 0.1vmin);
   overflow: hidden;
 
 }
@@ -50,9 +53,12 @@
   background: #A2C5AC;
   color: #7F6A93;
   border-radius: 20px 20px;
-  font-family: sans-serif;
   overflow-y: auto;
   font-size: calc(0.55vw + 0.55vh + 0.4vmin);
+}
+
+.scroll1::-webkit-scrollbar-thumb {
+  background: #666; 
 }
 
 .bio {
@@ -78,6 +84,7 @@ tr {
 
 table {
   color: inherit;
+  width: 100%;
 }
 
 .navbar {
@@ -90,7 +97,7 @@ table {
   background: #878E99;
   color: #7F6A93;
   font-size: calc(0.65vw + 0.65vh + 0.1vmin);
-  opacity: 0.5;  
+  opacity: 0.7;  
 }
 
 .nav-item {
