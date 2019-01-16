@@ -23,16 +23,13 @@ body {
   color: inherit;
 }
 
-.img {
-  background: url("https://secure.static.tumblr.com/a63a2270922e863d48215522d9855fe4/ohku10x/4baokckp4/tumblr_static_tumblr_static_aafwb17qfdsgkw8ww4oogwoco_640.gif");
-  background-size: 30vw 40vh;
+.img img{
   width: 30vw;
   height: 40vh;
   border-radius: 100px 100px;
   padding: 0vh 0vw 0vh 0vw;
   margin: 2vh 35vw 2vh 35vw;
   border: solid #fffb96 2px;
-  background-repeat: no-repeat;
   box-shadow: 1px -1px #05ffa1;
 }
 
@@ -70,7 +67,7 @@ body {
 }
 
 body {
-  background: url(https://image.freepik.com/free-vector/abstract-holographic-neon-background-in-80s-90s_40163-52.jpg);
+  background: url(https://i.redd.it/5bdk9ixr2b701.gif);
   /* background-repeat: no-repeat; */
   background-size: 100%;
   /* position: fixed;
