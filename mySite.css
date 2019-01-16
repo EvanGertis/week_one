@@ -13,6 +13,10 @@
   overflow: hidden;
 }
 
+.title a {
+  color: inherit;
+}
+
 .img {
   background: url("https://lparchive.org/Xenogears-(by-The-Dark-Id)/Update%2001/46-prologue60.jpg");
   background-size: 30vw 40vh;
@@ -41,9 +45,14 @@
 }
 
 .bio {
+  padding: 5vh 0vw 0vh 0vw;
+}
+
+body {
   background: url(https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=920&q=80);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: 100%;
+  
 }
 
 td, th {
@@ -61,10 +70,16 @@ table {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
   display: block;
   background: #878E99;
   color: #7F6A93;
-  font-size: calc(0.65vw + 0.65vh + 0.1vmin);  
+  font-size: calc(0.65vw + 0.65vh + 0.1vmin);
+  opacity: 0.5;  
 }
 
 .nav-item {
