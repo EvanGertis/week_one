@@ -68,9 +68,11 @@ body {
 }
 
 body {
-  background: url(https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=920&q=80);
+  background: url(https://i.pinimg.com/originals/2e/02/5b/2e025ba14c60637ace592eeceb9521d3.jpg);
   /* background-repeat: no-repeat; */
   background-size: 100%;
+  /* position: fixed;
+  overflow-y: scroll; */
   
 }
 table, th, td {
@@ -96,7 +98,7 @@ table {
   display: block;
   background: #878E99;
   color: #7F6A93;
-  font-size: calc(0.65vw + 0.65vh + 0.1vmin);
+  font-size: calc(0.75vw + 0.75vh + 0.1vmin);
   opacity: 0.7;  
 }
 
