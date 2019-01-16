@@ -59,3 +59,22 @@ tr {
 table {
   color: inherit;
 }
+
+.navbar {
+  display: block;
+  background: #878E99;
+  color: #7F6A93;
+  font-size: calc(0.65vw + 0.65vh + 0.1vmin);  
+}
+
+.nav-item {
+  float: inherit;
+}
+
+.nav-item a {
+  color: inherit;
+}
+
+.nav-heading {
+  float: right;
+}
