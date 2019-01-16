@@ -3,6 +3,7 @@ body {
 }
 
 .title {
+  text-align: center;
   display: inline-block;
   width: 10vw;
   height: 5vh;
@@ -14,7 +15,7 @@ body {
   color: #7F6A93;
   font-size: calc(0.65vw + 0.45vh + 0.1vmin);
   overflow: hidden;
-
+  text-shadow: 1px -1px    #ccccff;
 }
 
 .title a {
@@ -102,6 +103,7 @@ table {
 
 .nav-item {
   float: inherit;
+  text-align: center;
 }
 
 .nav-item a {
