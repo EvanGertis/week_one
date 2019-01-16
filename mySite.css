@@ -11,6 +11,7 @@
   color: #7F6A93;
   font-size: calc(0.65vw + 0.65vh + 0.1vmin);
   overflow: hidden;
+
 }
 
 .title a {
@@ -18,7 +19,7 @@
 }
 
 .img {
-  background: url("https://lparchive.org/Xenogears-(by-The-Dark-Id)/Update%2001/46-prologue60.jpg");
+  background: url("https://secure.static.tumblr.com/a63a2270922e863d48215522d9855fe4/ohku10x/4baokckp4/tumblr_static_tumblr_static_aafwb17qfdsgkw8ww4oogwoco_640.gif");
   background-size: 30vw 40vh;
   width: 30vw;
   height: 40vh;
@@ -27,6 +28,16 @@
   margin: 2vh 35vw 2vh 35vw;
   border: solid #9DB5B2 2px;
   background-repeat: no-repeat;
+}
+
+.medals {
+  list-style-type: none;
+}
+
+.medals img {
+    width: 3vw;
+    height: 6vh;
+    display: inline-block;
 }
 
 .body {
