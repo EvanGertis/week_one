@@ -7,16 +7,16 @@ body {
   display: inline-block;
   width: 10vw;
   height: 5vh;
-  border: solid #9DB5B2 2px;
+  border: solid #fffb96 2px;
   padding: 0vh 1vw 1vh 1vw;
   border-radius: 10px 10px;
   margin: 1vh 44.5vw 0.5vh 44.5vw;
-  background: #878E99;
-  color: #7F6A93;
+  background: 	#ff71ce;
+  color: #01cdfe;
   font-size: calc(0.65vw + 0.45vh + 0.1vmin);
   overflow: hidden;
-  text-shadow: 1px -1px #ccccff;
-  box-shadow: 3px -5px #ccccff;
+  text-shadow: 1px -1px #05ffa1;
+  box-shadow: 3px -5px #05ffa1;
 }
 
 .title a {
@@ -31,8 +31,9 @@ body {
   border-radius: 100px 100px;
   padding: 0vh 0vw 0vh 0vw;
   margin: 2vh 35vw 2vh 35vw;
-  border: solid #9DB5B2 2px;
+  border: solid #fffb96 2px;
   background-repeat: no-repeat;
+  box-shadow: 1px -1px #05ffa1;
 }
 
 .medals {
@@ -51,16 +52,17 @@ body {
   height: 20vh;
   padding: 1vh 1vw 1vh 1vw;
   margin: 3vh 35.5vw 3vh 35.5vw;
-  border: solid #9DB5B2 2px;
-  background: #A2C5AC;
-  color: #7F6A93;
+  border: solid #fffb96 2px;
+  background: #ff71ce;
+  color: #01cdfe;
   border-radius: 20px 20px;
   overflow-y: auto;
   font-size: calc(0.55vw + 0.55vh + 0.4vmin);
 }
 
-.scroll1::-webkit-scrollbar-thumb {
-  background: #666; 
+.information {
+  color: #01cdfe;
+  text-shadow: 1px -1px #05ffa1;
 }
 
 .bio {
@@ -68,7 +70,7 @@ body {
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/2e/02/5b/2e025ba14c60637ace592eeceb9521d3.jpg);
+  background: url(https://image.freepik.com/free-vector/abstract-holographic-neon-background-in-80s-90s_40163-52.jpg);
   /* background-repeat: no-repeat; */
   background-size: 100%;
   /* position: fixed;
@@ -76,12 +78,12 @@ body {
   
 }
 table, th, td {
-  text-shadow: 1px -1px #ccccff;
-  box-shadow: 0.25px -1px #ccccff;
+  text-shadow: 1px -1px #05ffa1;
+  box-shadow: 0.25px -1px #05ffa1;
 }
 
 tr {
-  background-color: #dddddd;
+  background-color: #ff71ce;
 }
 
 table {
@@ -96,8 +98,8 @@ table {
   left: 0;
   width: 100%;
   display: block;
-  background: #878E99;
-  color: #7F6A93;
+  background: #ff71ce;
+  color: #01cdfe;
   font-size: calc(0.75vw + 0.75vh + 0.1vmin);
   opacity: 0.7;  
 }
