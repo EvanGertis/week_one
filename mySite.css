@@ -29,19 +29,32 @@ body {
 .title a {
   color: inherit;
 }
-
-.img img {
+.img-gallery{
+  display: inline-block;
+}
+.img-container {
   width: 30vw;
   height: 40vh;
   border-radius: 100px 100px;
   padding: 0vh 0vw 0vh 0vw;
-  margin: 2vh 35vw 2vh 35vw;
+  margin: 2vh 0.667vw 2vh 0.667vw;
   border: solid #fffb96 2px;
   box-shadow: 1px 5px #05ffa1;
 }
 
-.medals {
+.img {
+  width: 30vw;
+  height: 40vh;
+  border-radius: 100px 100px;
+  padding: 0vh 0vw 0vh 0vw;
+}
+
+ul {
   list-style-type: none;
+}
+
+li {
+  float: left;
 }
 
 .medals img {
