@@ -2,10 +2,9 @@ body {
   font-family: 'pixel', Courier, monospace;
 }
 
-@font-face{
+@font-face {
   font-family: 'pixel';
-  src: 
-    url('pixel.otf');
+  src: url('pixel.otf');
 }
 
 .title {
@@ -18,7 +17,7 @@ body {
   padding: 0vh 1vw 1vh 1vw;
   border-radius: 10px 10px;
   margin: 1vh 35.0vw 0.5vh 35.0vw;
-  background: 	#ff71ce;
+  background: #ff71ce;
   color: #01cdfe;
   font-size: calc(1.2vw + 1.2vh + 0.1vmin);
   font-weight: 12rem;
@@ -31,7 +30,7 @@ body {
   color: inherit;
 }
 
-.img img{
+.img img {
   width: 30vw;
   height: 40vh;
   border-radius: 100px 100px;
@@ -46,17 +45,17 @@ body {
 }
 
 .medals img {
-    width: 3vw;
-    height: 6vh;
-    display: inline-block;
+  width: 3vw;
+  height: 6vh;
+  display: inline-block;
 }
 
 .body {
   display: inline-block;
-  width: 30vw;
+  width: 40vw;
   height: 20vh;
   padding: 1vh 1vw 1vh 1vw;
-  margin: 3vh 35.5vw 3vh 35.5vw;
+  margin: 3vh 30.5vw 3vh 30.5vw;
   border: solid #fffb96 2px;
   background: #ff71ce;
   color: #01cdfe;
@@ -75,13 +74,17 @@ body {
 }
 
 body {
-  background: url(https://i.redd.it/5bdk9ixr2b701.gif);
-  /* background-repeat: no-repeat; */
   background-size: 100%;
-  /* position: fixed;
-  overflow-y: scroll; */
-  
+  background: -moz-linear-gradient(-45deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fffb', endColorstr='#fffb96', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
+
 table, th, td {
   text-shadow: 1px -1px #05ffa1;
   box-shadow: 0.25px -1px #05ffa1;
@@ -106,7 +109,7 @@ table {
   background: #ff71ce;
   color: #01cdfe;
   font-size: calc(0.75vw + 0.75vh + 0.1vmin);
-  opacity: 0.7;  
+  opacity: 0.7;
 }
 
 .nav-item {
