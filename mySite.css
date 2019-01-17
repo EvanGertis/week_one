@@ -22,30 +22,33 @@ body {
   font-size: calc(1.2vw + 1.2vh + 0.1vmin);
   font-weight: 12rem;
   overflow: hidden;
-  text-shadow: 1px -1px #05ffa1;
+  text-shadow: 2px 3px #05ffa1;
   box-shadow: 3px 5px #05ffa1;
 }
 
-.title a {
-  color: inherit;
+.text {
+  text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .img-gallery{
   display: inline-block;
 }
 .img-container {
-  width: 30vw;
-  height: 40vh;
-  border-radius: 100px 100px;
+  width: 25vw;
+  height: 35vh;
+  border-radius: 20px 20px;
   padding: 0vh 0vw 0vh 0vw;
-  margin: 2vh 0.667vw 2vh 0.667vw;
+  margin: 2vh 1.667vw 2vh 3.667vw;
   border: solid #fffb96 2px;
   box-shadow: 1px 5px #05ffa1;
 }
 
 .img {
-  width: 30vw;
-  height: 40vh;
-  border-radius: 100px 100px;
+  width: 25vw;
+  height: 35vh;
+  border-radius: 20px 20px;
   padding: 0vh 0vw 0vh 0vw;
 }
 
