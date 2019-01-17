@@ -23,7 +23,7 @@ body {
   font-weight: 12rem;
   overflow: hidden;
   text-shadow: 1px -1px #05ffa1;
-  box-shadow: 3px -5px #05ffa1;
+  box-shadow: 3px 5px #05ffa1;
 }
 
 .title a {
@@ -37,7 +37,7 @@ body {
   padding: 0vh 0vw 0vh 0vw;
   margin: 2vh 35vw 2vh 35vw;
   border: solid #fffb96 2px;
-  box-shadow: 1px -1px #05ffa1;
+  box-shadow: 1px 5px #05ffa1;
 }
 
 .medals {
@@ -60,6 +60,7 @@ body {
   background: #ff71ce;
   color: #01cdfe;
   border-radius: 20px 20px;
+  box-shadow: 3px 5px #05ffa1;
   overflow-y: auto;
   font-size: calc(0.55vw + 0.55vh + 0.4vmin);
 }
