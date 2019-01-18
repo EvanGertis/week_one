@@ -122,6 +122,7 @@ li {
 
 body {
   background-size: 100%;
+  background-repeat: no-repeat;
   background: -moz-linear-gradient(-45deg, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
