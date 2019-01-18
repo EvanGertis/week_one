@@ -68,7 +68,7 @@ li {
 .body {
   display: inline-block;
   width: 40vw;
-  height: 20vh;
+  height: 80vh;
   padding: 1vh 1vw 1vh 1vw;
   margin: 3vh 30.5vw 3vh 30.5vw;
   border: solid #fffb96 2px;
@@ -78,6 +78,37 @@ li {
   box-shadow: 10px 10px 3px #05ffa1;
   overflow-y: auto;
   font-size: calc(0.55vw + 0.55vh + 0.4vmin);
+}
+
+.table-container{
+	display: inline-block;
+	width: 40vw;
+	height: 40vh;
+	padding: 1vh 1vw 1vh 1vw;
+	margin: 3vh 30.5vw 3vh 30.5vw;
+	border: solid #fffb96 2px;
+	background: #ff71ce;
+	color: #01cdfe;
+	border-radius: 20px 20px;
+	box-shadow: 10px 10px 3px #05ffa1;
+	overflow-y: auto;
+	font-size: calc(0.55vw + 0.55vh + 0.4vmin);
+}
+
+.accomplishments-container{
+	display: inline-block;
+	width: 40vw;
+	height: 40vh;
+	padding: 1vh 1vw 1vh 1vw;
+	margin: 3vh 30.5vw 3vh 30.5vw;
+	border: solid #fffb96 2px;
+	background: #ff71ce;
+	color: #01cdfe;
+	border-radius: 20px 20px;
+	box-shadow: 10px 10px 3px #05ffa1;
+	overflow-y: auto;
+	font-size: calc(0.55vw + 0.55vh + 0.4vmin);
+
 }
 
 .information {
@@ -91,11 +122,11 @@ li {
 
 body {
   background-size: 100%;
-  background: -moz-linear-gradient(-45deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  background: -moz-linear-gradient(-45deg, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  background: -webkit-linear-gradient(-45deg, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #00fffb 27%, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
+  background: linear-gradient(135deg, #00fffb 27%, #05ffa1 44%, #b967ff 74%, #fffb96 95%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fffb', endColorstr='#fffb96', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -113,6 +144,8 @@ tr {
 table {
   color: inherit;
   width: 100%;
+  border-collapse: collapse;
+  border: 1px solid;
 }
 
 .navbar {
