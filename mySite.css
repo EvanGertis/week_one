@@ -1,9 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -45,4 +45,42 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#paragraph {
+	color: green;
+	font-family: "Times New Roman";
+}
+
+.container {
+	display: block;
+}
+
+h3.htmlTitle {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.htmlTitle {
+	font-family: 'Times New Roman', Times, serif;
+	color: blue;
+}
+
+#sub1 {
+	color: rgb(46, 44, 34);
+}
+
+
+
+#sub2 {
+	color: rgb(255, 0, 34);
+}
+
+
+#sub3 {
+	color: rgb(0, 26, 255);
+}
+
+
+#sub4 {
+	color: rgb(143, 226, 177);
 }
